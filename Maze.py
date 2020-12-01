@@ -213,7 +213,7 @@ class Maze():
         img.save(filename)
 
 
-m = Maze("C:\\Users\\eu5492\\Downloads\\maze3.txt")
+m = Maze("maze1.txt") #Enter proper filepath
 print("Maze:")
 m.print()
 print("Solving...")
@@ -221,4 +221,4 @@ m.solve()
 print("States Explored:", m.num_explored)
 print("Solution:")
 m.print()
-m.output_image("maze.png", show_explored=True)
+m.output_image("maze1.png", show_explored=True)
